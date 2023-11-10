@@ -1,0 +1,68 @@
+let shopItemsData=[
+    //Fashion
+  {
+    id:"seventeen",
+    name:"Women Winter Jacket",
+    price:999.89,
+    desc:" Gift Parkas Winter Coat Zipper.",
+    desca:"&#9733;&#9733;&#9733;&#9733;&#11240;",
+    img:"https://canary.contestimg.wish.com/api/webimage/610a54a42f9854c6e6158d62-normal.jpg?cache_buster=0833ffbe0c78e5e11ad3439c718c6d4a",
+  },
+  {
+    id:"eightteen",
+    name:"Casual Men Warm Jackets",
+    price:1879.99,
+    desc:"Men Winter Long Trench Coat.",
+    desca:"&#9733;&#9733;&#9733;",
+    img:"https://canary.contestimg.wish.com/api/webimage/61443726cc4a372bc17e9d0c-large.jpg?cache_buster=582b226a752718f95088b94237cdece5",
+  },
+  {
+    id:"nineteen",
+    name:"Fall Winter suit",
+    price:1499.67,
+    desc:"Sleeve Lapel Knit Pullover Jacket.",
+    desca:"&#9733;&#9733;&#9733;&#9733;&#9733;",
+    img:"https://canary.contestimg.wish.com/api/webimage/613ac553321bb6dc80095cf2-normal.jpg?cache_buster=6993d480bd6a85b8118ac1e39b01f523",
+  },
+  {
+    id:"twenty",
+    name:"Running Sneakers",
+    price:1799.67,
+    desc:"New Breathable Running Shoes.",
+    desca:"&#9733;&#9733;&#9733;&#9733;",
+    img:"https://canary.contestimg.wish.com/api/webimage/612da524a10c53d7f62ae7f5-normal.jpg?cache_buster=4be9873a5c149e8ad3b5a2af2ca5c900",
+  },
+  {
+    id:"twentyone",
+    name:"Hallow Sweater",
+    price:1299.87,
+    desc:"Sleeve Hollow Out Sweater Coat.",
+    desca:"&#9733;&#9733;&#9733;&#9733;&#11240;",
+    img:"https://canary.contestimg.wish.com/api/webimage/60e51fd509fd146b8af913ad-normal.jpg?cache_buster=675ab2fa94794d5777038edb72cb5643",
+  },
+  {
+    id:"twentytwo",
+    name:"Hollow-out Wading Shoes",
+    price:1687.90,
+    desc:"Men Sandals Hiking Shoes.",
+    desca:"&#9733;&#9733;&#9733;&#9733;&#9733;",
+    img:"https://canary.contestimg.wish.com/api/webimage/60f7853c511aff008a3748a5-normal.jpg?cache_buster=c353128db81101209087b104f68fbbc0",
+  },
+  {
+    id:"twentythree",
+    name:"Summer Cap",
+    price:299.89,
+    desc:"Fashion Outdoor Baseball Cap Men",
+    desca:"&#9733;&#9733;&#9733;",
+    img:"https://canary.contestimg.wish.com/api/webimage/611f5ba5227535f5313e8ea6-normal.jpg?cache_buster=35bf636a5499cc5284bc97d6b1f3cce3",
+  },
+  {
+    id:"twentyfour",
+    name:"Weightless Summer Shoes",
+    price:1399.65,
+    desc:"Body-building Rocking Shoes.",
+    desca:"&#9733;&#9733;&#9733;&#9733;&#11240;",
+    img:"https://canary.contestimg.wish.com/api/webimage/61382613055c13cdf4a140f1-normal.jpg?cache_buster=4e25844b885213650da0321e80a53317",
+  },
+      
+];

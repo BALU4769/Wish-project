@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="../Wish-project/md5/css/mdb.min.css">
+    <script src="../Wish-project/md5/js/mdb.min.js"></script>
+    <script src="https://kit.fontawesome.com/7614416cee.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <script   type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"> 
+    </script>
+
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"> -->
+
+
+
+
+</head>
+    <body>
+        <!-- <div class="navbar">
+          <a href="index.html">
+            <h2>Clothing Store</h2>
+          </a>
+      
+          <a href="cart.html">
+            <div class="cart">
+              <i class="bi bi-cart2"></i>
+              <div id="cartAmount" class="cartAmount">0</div>
+            </div>
+          </a>
+      
+        </div>
+      
+        <div id="label" class="text-center"></div>
+      
+        <div class="shopping-cart" id="shopping-cart"></div> -->
+      <!-- 
+        <nav>
+          <div class="logo"><img src="../images/home-logo-removebg-preview.png" alt="" height="40px" width="100px" class="img1"> </div>
+          <li class="cook-off">Cook Off</li>
+          <ul class="nav-links">
+      
+              
+              <li><a href="../index.html" class="home">Home</a></li>
+               <li>
+                  <div class="dropdown">
+                      <button class="dropdown-button">
+                          <b>Select Food <i class="fa-solid fa-caret-down"></i></b>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="starters.html">Starters</a>
+                          <a href="veg.html">Veg</a>
+                          <a href="nonveg.html">Non-veg</a>
+                          <a href="soups.html">Soups</a>
+                          <a href="desserts.html">Desserts</a>
+                      </div>
+                  </div>
+                  </li>
+              <li><a href="cart.html" class="cart"><i class="fa-solid fa-cart-shopping"></i> &nbsp;Cart</a></li>
+             <li ><a href="cart.html">
+              <div class="cart">
+                <i class="bi bi-cart2"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div id="cartAmount" class="cartAmount">0</div> cart
+              </div>
+            </a></li>
+             
+              <li><a href="contactus.html" class="contact-us"><i class="fa-solid fa-phone"></i> 
+                  Contact Us</a></li>
+              <li><a href="aboutus.html" class="about-us"><i class="fa-solid fa-circle-info"></i> &nbsp;About Us</a></li>
+              <li><a href="login.html" class="log-in"><i class="fa-solid fa-user"></i> &nbsp;Log In</a></li>
+              <li><a href="signup.html" class="sign-up">Sign Up</a></li>
+          </ul>
+      </nav> -->
+      
+      
+        <header>
+          <nav class="navbar-one">
+              <div class="logo">
+                  <img src="https://1000logos.net/wp-content/uploads/2023/04/Wish-logo.jpg" alt="" >
+              </div>
+              <!-- <div>
+                  <form action="">
+                      <div class="search-bar">
+                          <span class="search-icon"><i class="fa-solid fa-magnifying-glass "></i></span>
+                          <span ><input class="search-input" type="Search" placeholder="What dou want to find ?" results></span>
+                          <span> <button type="submit" class="search-button">Search</button></span>
+                      </div>  
+                  </form>
+              </div> -->
+              <div style="max-width:400px;display: flex;margin-left: 640px;margin-top: 12px;">
+        
+                  <div class="input-icons">
+                      <i class="fa-solid fa-magnifying-glass fa-xs"></i>
+                      <input class="input-field"
+                          type="text" placeholder="What do you want to find ?">
+                  </div>
+                  <div class="search">
+                     <button class="search-button" type="submit">Search</button>
+                  </div>
+              </div>
+        
+             
+              <div >
+                 <ul class="navbar-icons">
+                  <button class="open-button" onclick="openForm()" >Sign-in</button>
+                  <!-- <li ><a href="" style="font-size:18px;">Sign-in</a></li> -->
+                  <li><i class="fa-regular fa-bell fa-lg"></i></li>
+                  <!-- <li><i class="fa-solid fa-cart-shopping "></i></li> -->
+                  <li class="cart" ><a href="cart.html">
+                    
+                      <!-- <i class="bi bi-cart2"></i> -->
+                      <i class="fa-solid fa-cart-shopping f"></i>
+                      <div id="cartAmount" class="cartAmount">0</div>
+                    
+                  </a></li>
+                  <li><i class="fa-regular fa-heart fa-lg"></i></li>
+                 </ul>
+              </div>
+              <div class="get-app">
+                  <button class="get-app-button"><i class="fa-solid fa-mobile-screen-button "></i> &nbsp;Get app</button>
+              </div>
+          </nav>
+          <nav class="navbar-two">
+              <div class="navbar-two-categories">
+                  <div class="categories-display">
+                      <div>
+                          <svg viewBox="0 0 17 17" style="width: 18px; height: 18px; margin: auto 6px;"><path d="M11.044 5.588c6.307.633 6.326.672 1.577 5.064 1.375 6.405 1.283 6.482-4.126 3.126-5.408 3.356-5.482 3.28-4.107-3.126-4.767-4.392-4.73-4.43 1.559-5.064 2.548-6.117 2.567-6.117 5.097 0z" stroke="#C0952B" fill="#FFD560" fill-rule="evenodd"></path></svg>
+                      </div>
+                      <div class="categoriers-items">
+                          <a href="index.html">Popular</a>
+                      </div>
+                  </div>
+        
+                  <div class="categories-display">
+                      <div>
+                          <svg role="img" aria-label="Deals Hub" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px; margin: auto 4px;"><circle cx="36" cy="36" r="36" fill="#CA4609"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M17.2506 24.6428C17.2506 21.98 19.4092 19.8214 22.072 19.8214H34.6692C35.9479 19.8214 37.1742 20.3294 38.0784 21.2336L56.2927 39.4479C58.1756 41.3308 58.1756 44.3835 56.2927 46.2664L43.6955 58.8636C41.8127 60.7465 38.7599 60.7465 36.877 58.8636L18.6627 40.6493C17.7585 39.7451 17.2506 38.5187 17.2506 37.24V24.6428ZM22.072 23.0357C21.1844 23.0357 20.4648 23.7552 20.4648 24.6428V37.24C20.4648 37.6663 20.6342 38.075 20.9356 38.3764L39.1499 56.5907C39.7775 57.2184 40.7951 57.2184 41.4227 56.5907L54.0199 43.9936C54.6475 43.3659 54.6475 42.3483 54.0199 41.7207L35.8056 23.5064C35.5042 23.205 35.0954 23.0357 34.6692 23.0357H22.072Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M27.4291 28.3928C26.5415 28.3928 25.822 29.1124 25.822 30C25.822 30.8876 26.5415 31.6071 27.4291 31.6071C28.3167 31.6071 29.0363 30.8876 29.0363 30C29.0363 29.1124 28.3167 28.3928 27.4291 28.3928ZM22.6077 30C22.6077 27.3372 24.7663 25.1786 27.4291 25.1786C30.0919 25.1786 32.2506 27.3372 32.2506 30C32.2506 32.6628 30.0919 34.8214 27.4291 34.8214C24.7663 34.8214 22.6077 32.6628 22.6077 30Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M13.4356 16.0064C14.0632 15.3788 15.0808 15.3788 15.7084 16.0064L25.3513 25.6493C25.9789 26.2769 25.9789 27.2945 25.3513 27.9221C24.7236 28.5498 23.7061 28.5498 23.0784 27.9221L13.4356 18.2793C12.8079 17.6516 12.8079 16.6341 13.4356 16.0064Z" fill="white"></path></svg>
+                      </div>
+                      <div class="categoriers-items">
+                          <a href="dealshub.html">Deals hub</a>
+                      </div>
+                  </div>
+        
+                  <div class="categories-display">
+                      <div>
+                          <svg viewBox="0 0 22 22" style="width: 18px; height: 18px; margin: auto 4px;"><g fill="none" fill-rule="evenodd"><circle fill="#0098D3" fill-rule="nonzero" cx="11" cy="11" r="11"></circle><path d="M11 20.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19z" fill="#DBF3FC" fill-rule="nonzero"></path><path d="M11 1.5v9.445l6.745 6.745A9.5 9.5 0 1 1 11 1.5z" fill="#FFF" fill-rule="nonzero"></path><path stroke="#0098D3" stroke-width="1.54" stroke-linecap="round" stroke-linejoin="round" d="M14.818 14.663L11 11.018v-6.39"></path></g></svg>
+                      </div>
+                      <div class="categoriers-items">
+                          <a href="recentlyviewed.html">Recently Viewed</a>
+                      </div>
+                  </div>
+        
+                  <div class="categories-display">
+                      
+                      <div class="categoriers-items">
+                          <a href="sexualwillness">Sexual willness</a>
+                      </div>
+                      <div class="CoreCategoryTopBar__WADNewItemFlag-jf29rs-4 eFDMkU">New</div>
+                  </div>
+        
+        <!-- Trending  drop-down items -->
+                  <div class="categories-display">
+                      
+                           
+                          <div class="dropdown">
+                              <a href="trending.html">
+                                <button class="dropdown-button">
+                                    Trending 
+                                </button>
+                              </a>
+                              
+                              <div class="dropdown-content">
+                                  <li><a href="">Airdopes</a></li>
+                                  <li class="abc"><a href="">Anime Hoodies</a>
+        
+                                      <ul class="dropdown-content-one" >
+                                         
+                                         <div class="anime-hoodies-submenu">
+                                          <div>
+                                              <li><a href=""><b>Dranganronpa</b></a></li>
+                                              <li><a href=""><b>Dragon Ball</b></a></li>
+                                              <li><a href=""><b>Harajuku</b></a></li>
+                                              <li><a href=""><b>Hunter X</b></a></li>
+                                              
+                                              <li><a href=""><b>Jujutsu Kaisen</b></a></li>
+                                              <li><a href=""><b>My Hero Academia</b></a></li>
+                                              <li><a href="">Izuku Midoriya</a></li>
+                                              <li><a href="">Katsuki Bakugo</a></li>
+                                              
+                                              <li><a href=""><b> Naruto</b></a></li>
+                                              <li><a href=""><b>Shingeki No Kyojin</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                          <li><a href=""><b>Toilet Bound Hanako Kun</b></a></li>
+                                          <li><a href=""><b>Tokyo Ghoul Kaneki Ken</b></a></li>
+                                          <li><a href="animehoodies.html"><b>All Anime Hoodies</b></a></li>
+                                          </div>
+                                         </div>
+                                          
+                                      </ul>
+                                  </li>
+        
+                                  <li><a href="">BTS</a></li>
+                                  <li><a href="">Bluetooth Speakers</a></li>
+                                  <li><a href="">Dragonball Z Figures</a></li>
+                                  <li><a href="">Gucci</a></li>
+                                  <li><a href="">Mommy and Me</a></li>
+                                  <li><a href="">Motorcycle Helmets</a></li>
+                                  <li><a href="">Naruto</a></li>
+                                  <li><a href="">Shop ALL</a></li>
+                              </div>
+                          </div>
+                      </li> 
+                  </div>
+        
+        
+        
+                <!-- Fashion drop-down items -->
+        
+                  <div class="categories-display">
+                      
+                           
+                      <div class="dropdown">
+                          <a href="fashion.html">
+                            <button class="dropdown-button">
+                                Fashion 
+                            </button>
+                          </a>
+                          
+                          <div class="dropdown-content">
+                              <li class="abc-two"><a href="">Brands</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                      <div>
+                                          <li><a href=""><b>J.Crew</b></a></li>
+                                          <li><a href=""><b>Levi's</b></a></li>
+                                          <li><a href=""><b>Lucky Brand</b></a></li>
+                                          <li><a href=""><b>Palm Angels</b></a></li>
+                                          
+                                          <li><a href=""><b>Speedo</b></a></li>
+                                          <li><a href="tommyhilfiger.html"><b>Tommy Hilfiger</b></a></li>
+                                          <li><a href=""><b>True Religion</b></a></li>
+                                          <li><a href=""><b>Wrangler</b></a></li>
+                                          <li><a href=""><b> All Brands</b></a></li>
+                                          <li><a href=""><b>Shingeki No Kyojin</b></a></li>
+                                          <br>
+                                      </div>
+        
+                                      <div> 
+                                      <li><a href=""><b>Aeropostable</b></a></li>
+                                      <li><a href=""><b>American eagle</b></a></li>
+                                      <li><a href=""><b>Bebe</b></a></li>
+                                      <li><a href=""><b>Billabong</b></a></li>
+                                      <li><a href=""><b>Canada Goose</b></a></li>
+                                      <li><a href=""><b>Disney</b></a></li>
+                                      <li><a href=""><b>Free People</b></a></li>
+                                      <li><a href=""><b>Gap</b></a></li>
+        
+                                      </div>
+                                     </div>
+                                      
+                                  </ul>
+                              </li>
+        
+        
+                              <li class="abc-two-women"><a href="">Women</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div>
+                                              <li><a href=""> <b>Ethnic Fashion</b></a></li>
+                                              <li><a href="">Abaya</a></li>
+                                              <li><a href="">African</a></li>
+                                              <li><a href="">Ao Dai</a></li>
+                                              <li><a href="">Cheongsam</a></li>
+                                              <li><a href="">Chinese</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Dresses</b></a></li>
+                                              <li><a href="">Colors</a></li>
+                                              <li><a href="">Events</a></li>
+                                              <li><a href="">Lengths</a></li>
+                                              <li><a href="">Materials</a></li>
+                                              <li><a href="">Patterns</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Coats and Jackets</b></a></li>
+                                              <li><a href="">Blazers</a></li>
+                                              <li><a href="">Bomber</a></li>
+                                              <li><a href="">Bubble Coates</a></li>
+                                              <li><a href="">Cape</a></li>
+                                              <li><a href="">Coduroy</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Activewear</b></a></li>
+                                              <li><a href="">Athletic Pants</a></li>
+                                              <li><a href="">Jogging suits</a></li>
+                                              <li><a href="">Shorts</a></li>
+                                              <li><a href="">Sports</a></li>
+                                              <li><a href="">Sweat pants</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>Bodysuits</b></a></li>
+                                          </div>
+                                     </div>
+                                  </ul>
+                              </li>
+        
+        
+        
+        
+                              <li class="abc-two-men"><a href="">Men</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div>
+                                              <li><a href=""> <b>Shirts</b></a></li>
+                                              <li><a href="">Casual Button Down</a></li>
+                                              <li><a href="">Checked</a></li>
+                                              <li><a href="">Dress</a></li>
+                                              <li><a href="">Flannel</a></li>
+                                              <li><a href="">Graphic Taxes</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Pants</b></a></li>
+                                              <li><a href="">Cargo</a></li>
+                                              <li><a href="">Chef</a></li>
+                                              <li><a href="">Chinos</a></li>
+                                              <li><a href="">Corduroys</a></li>
+                                              <li><a href="">Dress</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Jeans</b></a></li>
+                                              <li><a href="">Bootcut</a></li>
+                                              <li><a href="">Relaxed Fit</a></li>
+                                              <li><a href="">Slevedge Denim</a></li>
+                                              <li><a href="">Skinny</a></li>
+                                              <li><a href="">Slim Fit</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Coats and Jackets</b></a></li>
+                                              <li><a href="">Blazers</a></li>
+                                              <li><a href="">Bomber</a></li>
+                                              <li><a href="">Denim</a></li>
+                                              <li><a href="">Down Coats</a></li>
+                                              <li><a href="">Fleece</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          
+                                     </div>
+                                  </ul>
+                              </li>
+        
+        
+        
+        
+                              <li class="abc-two-kids"><a href="">Kids</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div>
+                                              <li><a href=""> <b>Girls</b></a></li>
+                                              <li><a href="">Activewear</a></li>
+                                              <li><a href="">Dancewear</a></li>
+                                              <li><a href="">Dressess</a></li>
+                                              <li><a href="">Hoodies</a></li>
+                                              <li><a href="">Jackets</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>All Kids</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Boys</b></a></li>
+                                              <li><a href="">Activewear</a></li>
+                                              <li><a href="">Hoodies</a></li>
+                                              <li><a href="">Jackets</a></li>
+                                              <li><a href="">Jeans</a></li>
+                                              <li><a href="">Pajama</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Baby</b></a></li>
+                                              <li><a href="">Boys</a></li>
+                                              <li><a href="">Girls</a></li>
+                                              <li><a href="">Onesis</a></li>
+                                              <li><a href="">Rompers</a></li>
+                                              <li><a href="">Sleepwear</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                       
+                                     </div>
+                                  </ul>
+                              </li>
+        
+        
+        
+        
+        
+                              <li class="abc-two-men"><a href="">Shoes</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div>
+                                              <li><a href=""> <b>Women</b></a></li>
+                                              <li><a href="">Bohemian</a></li>
+                                              <li><a href="">Boots</a></li>
+                                              <li><a href="">By Material</a></li>
+                                              <li><a href="">Clogs</a></li>
+                                              <li><a href="">Comfort</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>All Shoes</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Men</b></a></li>
+                                              <li><a href="">Boat</a></li>
+                                              <li><a href="">Boots</a></li>
+                                              <li><a href="">Business Casual</a></li>
+                                              <li><a href="">By Material</a></li>
+                                              <li><a href="">Casual</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Kids</b></a></li>
+                                              <li><a href="">Anime</a></li>
+                                              <li><a href="">Baby Shoes</a></li>
+                                              <li><a href="">Boys</a></li>
+                                              <li><a href="">Girls</a></li>
+                                              <li><a href="">Light Up Shoes</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          
+        
+                                          <div> 
+                                              <li><a href=""><b>Brands</b></a></li>
+                                              <li><a href="">Adidas</a></li>
+                                              <li><a href="airjordans.html">Air Jordans</a></li>
+                                              <li><a href="">Asics</a></li>
+                                              <li><a href="">Balenciaga</a></li>
+                                              <li><a href="">Champion</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>                               
+                                     </div>
+                                  </ul>
+                              </li>
+        
+        
+        
+        
+                              <li class="abc-two-bags" ><a href="">Bags and Purses</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div >
+                                              <li><a href=""> <b>Women</b></a></li>
+                                              <li><a href="">Beach Bags</a></li>
+                                              <li><a href="">Backpacks</a></li>
+                                              <li><a href="">Belt Bags</a></li>
+                                              <li><a href="">Bucket Bags</a></li>
+                                              <li><a href="">Clutches </a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>All Bags and Purses</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Men</b></a></li>
+                                              <li><a href="">Bicycle Bags</a></li>
+                                              <li><a href="">Briefcases</a></li>
+                                              <li><a href="">Bum Bags</a></li>
+                                              <li><a href="">Card Holders</a></li>
+                                              <li><a href="">Laptop Cases</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>Pencil Cases</b></a></li>
+                                              <br>
+                                              <li><a href=""><b>Phone Wallets</b></a></li>
+                                              <br>
+                                              <li><a href=""><b>Purse Charms</b></a></li>
+                                          </div>
+                                     
+                                          <div > 
+                                              <li><a href=""><b>Kid's Bags</b></a></li>
+                                              <li><a href="">Boy's Backpacks</a></li>
+                                              <li><a href="">Boys'Lunchboxes</a></li>
+                                              <li><a href="">Girls' Backpacks</a></li>
+                                              <li><a href="">Girls' Lunchboxes</a></li>
+                                              <br>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Brands</b></a></li>
+                                              <li><a href="">AFONiE</a></li>
+                                              <li><a href="">Coach</a></li>
+                                              <li><a href="">Fjallraven Kanken</a></li>
+                                              <li><a href="">Frye</a></li>
+                                              <li><a href="">Michael Kors</a></li>
+                                              <li><a href=""><b>Camera Bags</b></a></li>
+                                              <li><a href=""><b> Drawstring Bags</b></a></li>
+                                              <li><a href=""><b>Glass Cases</b></a></li>
+                                              <li><a href=""><b>Key Holders and Lanyards</b></a></li>
+                                          </div>                               
+                                     </div>
+                                  </ul>
+                              </li>
+        
+        
+        
+                              <li class="abc-two-men" ><a href="">Accessories</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div style="width: 140px;">
+                                              <li><a href=""> <b>Women</b></a></li>
+                                              <li><a href="">Belts</a></li>
+                                              <li><a href="">Brands</a></li>
+                                              <li><a href="">Couples Jewelry</a></li>
+                                              <li><a href="">Earmufs</a></li>
+                                              <li><a href="">Gloves </a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>All Acessories</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Men</b></a></li>
+                                              <li><a href="">Belt Buckels</a></li>
+                                              <li><a href="">Belts</a></li>
+                                              <li><a href="">Canes</a></li>
+                                              <li><a href="">Cuff Links</a></li>
+                                              <li><a href="">Ear muffs</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                             
+                                          </div>
+                           
+                                          <div > 
+                                              <li><a href=""><b>Girls</b></a></li>
+                                              <li><a href="">Croc Charms</a></li>
+                                              <li><a href="">Gloves</a></li>
+                                              <li><a href="">Hats</a></li>
+                                              <li><a href="">Purses</a></li>
+                                              <br>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Boys</b></a></li>
+                                              <li><a href="">Belts</a></li>
+                                              <li><a href="">Gloves</a></li>
+                                              <li><a href="">Hats</a></li>
+                                              <li><a href="">Sunglasses</a></li>
+                                              <li><a href="">Watches</a></li>  
+                                          </div>                               
+                                     </div>
+                                  </ul>
+                              </li>
+                          
+                              <li><a href="">Work Clothes</a></li>
+                              <li><a href="">School Uniforms</a></li>
+                              <li><a href="">Shop All</a></li>
+                          </div>
+                      </div>
+                     </li> 
+                  </div>
+        
+                  <!-- Baby Wear Starts here -->
+                  <div class="categories-display">
+                      
+                           
+                      <div class="dropdown">
+                          <a href="babygear.html">
+                            <button class="dropdown-button">
+                                Baby Wear
+                            </button>
+                          </a>
+                          
+                          <div class="dropdown-content">
+                              <li class="abc-two"><a href="">Toys</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;">
+                                      <div style="margin-left: 10px;">
+                                          <li><a href=""><b>Musical Toys</b></a></li>
+                                          <li><a href=""><b>Pull Toys</b></a></li>
+                                          <li><a href=""><b>Rattles</b></a></li>
+                                          <li><a href=""><b>Palm Angels</b></a></li>
+                                          
+                                          <li><a href=""><b>Spinning Tops</b></a></li>
+                                          <li><a href="alltoys.html"><b>All Toys</b></a></li>
+                                          <br>
+                                      </div>
+        
+                                      <div style="margin-left: 10px;"> 
+                                      <li><a href=""><b>Balls</b></a></li>
+                                      <li><a href=""><b>Bath Toys</b></a></li>
+                                      <li><a href=""><b>Climbers</b></a></li>
+                                      <li><a href=""><b>Learning Toys</b></a></li>
+                                      <li><a href=""><b>Mirrors</b></a></li>
+                                      <li><a href=""><b>Mobiles</b></a></li>
+                                      <li><a href=""><b>Blocks</b></a></li>
+                                     
+        
+                                      </div>
+                                     </div>
+                                      
+                                  </ul>
+                              </li>
+        
+        
+                              <li class="abc-two"><a href="">Health and Safety</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-left: 15px;padding-top: 15px;">
+                                      <div >
+                                          <li><a href=""><b>Scales</b></a></li>
+                                          <li><a href=""><b>Teethers</b></a></li>
+                                          <li><a href=""><b>Thermometers</b></a></li>
+                                          <li><a href=""><b>All Health and safety</b></a></li>                           
+                                          <br>
+                                      </div>
+        
+                                      <div> 
+                                      <li><a href=""><b>Antic Colic Nursing</b></a></li>
+                                      <li><a href=""><b>Aspirators</b></a></li>
+                                      <li><a href=""><b>Heartbeat Monitors</b></a></li>
+                                      <li><a href=""><b>Monitors</b></a></li>
+                                      <li><a href=""><b>Oral Syringes</b></a></li>
+                                      <li><a href=""><b>Pacifiers</b></a></li>
+                                      </div>
+                                     </div>   
+                                  </ul>
+                              </li>
+        
+        
+                             
+        
+                              <li class="abc-two-accessories"><a href="">Accessories</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding: 15px 20px;font-size: bold;">
+                                          <div>
+                                              <li><a href="">Playpens</a></li>
+                                              <li><a href="">Quilts</a></li>
+                                              <li><a href="">Strollers</a></li>
+                                              <li><a href="">Swings</a></li>
+                                              <li><a href="">Towels</a></li>
+                                              <li><a href="">Walkers</a></li>
+                                              <li><a href="">All Accessories</a></li>
+                                              
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href="">Fences</a></li>
+                                              <li><a href="">Gates</a></li>
+                                              <li><a href="">High Chairs</a></li>
+                                              <li><a href="">Mats</a></li>
+                                              <li><a href="">Mattresses</a></li>
+                                              <li><a href="">Nursing Pillows</a></li>
+                                              <li><a href="">Pillows</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href="">Baby Blankets</a></li>
+                                              <li><a href="">Baby Carriers</a></li>
+                                              <li><a href="">Car Seats</a></li>
+                                              <li><a href="">Changing Tables</a></li>
+                                              <li><a href="">Crip Liners</a></li>
+                                              <li><a href="">Cribs</a></li>
+                                          
+                                          </div>
+                       
+                                     </div>
+                                  </ul>
+                              </li>
+        
+        
+        
+                              <li class="abc-two"><a href="">Hygiene Products</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;">
+                                      <div style="margin-left: 10px;">
+                                          <li><a href=""><b>Tooth Brushes</b></a></li>
+                                          <li><a href=""><b>ToothPaste</b></a></li>
+                                          <li><a href=""><b>Wipers</b></a></li>
+                                          <li><a href="allhygieneproducts.html"><b>All Hygiene Products</b></a></li>
+                                          
+                                          <br>
+                                          <br>
+        
+                                      </div>
+        
+                                      <div style="margin-left: 10px;"> 
+                                      <li><a href=""><b>Bath Tubs</b></a></li>
+                                      <li><a href=""><b>Blibs</b></a></li>
+                                      <li><a href=""><b>Diapers Bas</b></a></li>
+                                      <li><a href=""><b>Lotions</b></a></li>
+                                      <li><a href=""><b>Nail Trimmers</b></a></li>
+                                      <li><a href=""><b>Mobiles</b></a></li>
+                                      <li><a href=""><b>Potties</b></a></li>
+                                     
+        
+                                      </div>
+                                     </div>
+                                      
+                                  </ul>
+                              </li>
+        
+                              <li class="abc-two" ><a href="">Feeding Accessories</a>
+        
+                                  <ul class="dropdown-content-one" style="left: -365px;">
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" >
+                                      <div>
+                                          <li><a href=""><b>Formula Storage</b></a></li>
+                                          <li><a href=""><b>Milk Storage Containers</b></a></li>
+                                          <li><a href=""><b>All Feeding Items</b></a></li>
+                                          <br>
+                                      </div>
+        
+                                      <div> 
+                                      <li><a href=""><b>Baby Bottels</b></a></li>
+                                      <li><a href=""><b>Baby Cups</b></a></li>
+                                      <li><a href=""><b>Baby Utensils</b></a></li>
+                                      <li><a href=""><b>Bottle Warmer</b></a></li>
+                                      <li><a href=""><b>Breast Pumps</b></a></li>
+                                      <li><a href=""><b>Formula Dispensers</b></a></li>
+                                  
+                                     
+        
+                                      </div>
+                                     </div>
+                                      
+                                  </ul>
+                              </li>
+                          </div>
+                      </div>
+                     </li> 
+                  </div>
+        <!-- Pet Accessories Starts Here -->
+        
+                  <div class="categories-display">
+                      
+                           
+                      <div class="dropdown">
+                          <a href="petaccessories.html">
+                            <button class="dropdown-button">
+                                Pet Accessories
+                            </button>
+                          </a>
+                          
+                          <div class="dropdown-content">
+                              <li class="abc-two-five" ><a href="">Dogs</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div style="width: 140px;">
+                                              <li><a href=""> <b>Houses</b></a></li>
+                                              <li><a href="">Cages</a></li>
+                                              <li><a href="">Carriers</a></li>
+                                              <li><a href="">Doors</a></li>
+                                              <li><a href="">Fences</a></li>
+                                              <li><a href="">Gates </a></li>
+                                              
+                                              <br>
+                                              <li><a href=""><b>All Dogs</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Grooming Tools</b></a></li>
+                                              <li><a href="">Bath Gloves</a></li>
+                                              <li><a href="">Brushes</a></li>
+                                              <li><a href="">Clippers</a></li>
+                                              <li><a href="">Dryers</a></li>
+                                              <li><a href="">Grooming Scissors</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                             
+                                          </div>
+                           
+                                          <div > 
+                                              <li><a href="dogcare.html"><b>Dog care</b></a></li>
+                                              <li><a href="">Anxeity Vests</a></li>
+                                              <li><a href="">Beds</a></li>
+                                              <li><a href="">Diapers</a></li>
+                                              <li><a href="">Flea Collars</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Collar and Leaches</b></a></li>
+                                              <li><a href="">Coolars with Rhinestones</a></li>
+                                              <li><a href="">Collars With Spikes</a></li>
+                                              <li><a href="">Sruds</a></li>
+                                              <li><a href="">Harnesses</a></li>
+                                              <li><a href="">Shop All</a></li>  
+                                          </div>  
+                                          <div> 
+                                              <li><a href=""><b>Cleaning Products</b></a></li>
+                                              <li><a href="">Hair Removers</a></li>
+                                              <li><a href="">Poop Bags</a></li>
+                                              <li><a href="">Shampoos</a></li>
+                                          </div>   
+                                     </div>
+                                  </ul>
+                              </li>
+                              <li class="abc-two"><a href="">Cats</a></li>
+        
+                              
+                              <li class="abc-two"><a href="">Rabbits</a>
+        
+                                  <ul class="dropdown-content-one" style="left:-365px;">
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;">
+                                      <div style="padding-left: 25px;">
+                                          <li><a href=""><b>Toys</b></a></li>
+                                          <li><a href="">Chew Toys</a></li>
+                                          <li><a href="">Teeth Grinding Balls</a></li>
+                                          <br>
+                                          <br>
+                                          <li><a href=""><b>Water Bottels</b></a></li>  
+                                          <li><a href="allrabbits.html"><b>All Rabbits</b></a></li>                         
+                                          <br>
+                                      </div>
+        
+                                      <div style="padding-left: 60px;"> 
+                                      <li><a href=""><b>Cages</b></a></li>
+                                      <li><a href=""><b>Feeders</b></a></li>
+                                      <li><a href=""><b>Grass Mats</b></a></li>
+                                      <li><a href=""><b>Food</b></a></li>
+                                      <li><a href=""><b>Harnesses</b></a></li>
+                                      <li><a href=""><b>Hutches</b></a></li>
+                                      <li><a href=""><b>Litter Boxes</b></a></li>
+                                      </div>
+                                     </div>   
+                                  </ul>
+                              </li>
+                              <li class="abc-two"><a href="">Aquariams</a></li>
+                              
+                              <li class="abc-two-three"><a href="">Hamsters</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;padding-bottom: 20px;" >
+                                      <div >
+                                          <li><a href=""><b>Treats</b></a></li>
+                                          <br>
+                                          <li><a href=""><b>All Hamsters</b></a></li>
+                                          
+                                      </div>
+        
+                                      <div > 
+                                      <li><a href=""><b>Outfits</b></a></li>
+                                      <br>
+                                      <li><a href=""><b>Toys</b></a></li>
+                                      <li><a href="">Balls</a></li>
+                                      <li><a href="">Chew Toys</a></li>
+                                      <li><a href="">Ladders</a></li>
+                                      <li><a href="">Mazes</a></li>
+                                      <li><a href="">Playpens</a></li>
+                                      <li><a href="">Shop All</a></li>
+                                      </div>
+                                      <div>
+                                          <li><a href=""><b>Beds</b></a></li>
+                                          <li><a href=""><b>Cages</b></a></li>
+                                          <li><a href=""><b>Carriers</b></a></li>
+                                          <li><a href=""><b>Feeders</b></a></li>
+                                          <li><a href=""><b>Food</b></a></li>
+                                          <li><a href=""><b>Harnesses</b></a></li>
+                                          <li><a href=""><b>Litter Boxes</b></a></li>
+                                      </div>
+        
+                                     </div>   
+                                  </ul>
+                              </li>
+        
+                              <li class="abc-two"><a href="">Birds</a></li>
+                              <li class="abc-two-one"><a href="">Iguanas</a>
+                                  <ul class="dropdown-content-one" >                              
+                                       <div style="padding-top: 30px; font-size: 14px;padding-bottom: 40px;">
+                                           <li><a href=""><b>Hammocks</b></a></li>
+                                           <li><a href=""><b>Harnesses</b></a></li>
+                                           <li><a href=""><b>Heart Lamps</b></a></li>
+                                           <li><a href=""><b>Terrariums</b></a></li>  
+                                           <li><a href=""><b>All Iguanas</b></a></li>                         
+                                           <br>
+                                       </div>                               
+                                   </ul>
+                              </li>
+                              <li><a href="">Reptile Terrariums</a></li>   
+                          </div>
+                      </div>
+                     </li> 
+                  </div>
+           
+        <!-- Gadgets Starts Here -->
+
+                  <div class="categories-display">  
+                      <div class="dropdown">
+                          <a href="gadgets.html">
+                            <button class="dropdown-button">
+                                Gadgets
+                            </button>
+                          </a>
+                          
+                          <div class="dropdown-content"  >
+                              <li class="abc-two-mobiles" style="width: 180px;line-height: 13px;"><a href="">Mobile Phones and Accessories</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div >
+                                              <li><a href=""> <b>Parts</b></a></li>
+                                              <li><a href="">Antenna</a></li>
+                                              <li><a href="">Repairs Tools</a></li>
+                                              <li><a href="">SIM Cards</a></li>
+                                              <li><a href="">SIM and SD Cards</a></li>
+                                            
+                                              <br>
+                                              <li><a href=""><b>All Mobile Phones and Accessories</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Mobile Phone Accessories</b></a></li>
+                                              <li><a href="">Adapters and Converters</a></li>
+                                              <li><a href="">Airpod Cases</a></li>
+                                              <li><a href="">Arm bands</a></li>
+                                              <li><a href="">Cable Organizer</a></li>
+                                              <li><a href="">Cables</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                             
+                                          </div>
+                           
+                                          <div > 
+                                              <li><a href=""><b>Communication Equipment</b></a></li>
+                                              <li><a href="">Communication Cables</a></li>
+                                              <li><a href="">Communication Antenna</a></li>
+                                              <li><a href="">Fiber Optic Wquipment</a></li>
+                                              <li><a href="">Fixed Wireless Terminals</a></li>
+                                              <br>
+                                              <li><a href=""><b>Flip Phone</b></a></li>
+                                              <br>
+                                              <li><a href=""><b>Holsters</b></a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Cases</b></a></li>
+                                              <li><a href="">Alcatel</a></li>
+                                              <li><a href="">Bestfrienf Cases</a></li>
+                                              <li><a href="">Couple Cases</a></li>
+                                              <li><a href="">Google</a></li>
+                                              <li><a href="">Huawei</a></li>  
+                                          </div>  
+                                          <div> 
+                                              <li><a href="androidmobiles.html"><b>Android Phones</b></a></li>
+                                              <li><a href="">32MP Camera</a></li>
+                                              <li><a href="">Deca Core</a></li>
+                                              <li><a href="">Dual SIM Unlocked</a></li>
+                                              <li><a href="">Face and fingerprint Unlock</a></li>
+                                              <li><a href="">Google</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                          </div>   
+                                     </div>
+                                  </ul>
+                              </li>
+                              
+        
+                              
+                              <li class="abc-two"><a href="">Office</a>
+        
+                                  <ul class="dropdown-content-one" style="left: -347px;">
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;">
+                                      <div style="padding-left: 15px;">
+                                          <li><a href=""><b>Laptops</b></a></li>
+                                          <li><a href="">Dell</a></li>
+                                          <li><a href="">Hp</a></li>
+                                          <li><a href="">Asus</a></li>  
+                                          <li><a href="">Acer</a></li>   
+                                          <li><a href="">Chuwi</a></li>    
+                                          <li><a href="">Accessories</a></li>                  
+                                          <br>
+                                          <li><a href="">All Office</a></li>
+                                      </div>
+        
+                                      <div style="padding-left: 15px;"> 
+                                      <li><a href=""><b>External Disks</b></a></li>
+                                      <li><a href="">Blank Disks</a></li>
+                                      <li><a href="">External Hard Drive</a></li>
+                                      <li><a href="">External Solid state</a></li>
+                                      <li><a href="">HDD Enclosure</a></li>
+                                      <li><a href="">Hard Drive Bags and Cases</a></li>
+                                      <li><a href="">Shop All</a></li>
+                                      </div>
+                                     </div>   
+                                  </ul>
+                              </li>
+                              <li class="abc-two"><a href="">Aquariams</a></li>
+                              
+                              <li class="abc-two-four"><a href="">Car Electronics</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div>
+                                              <li><a href=""> <b>Stereos</b></a></li>
+                                              <li><a href=""> <b>SubWoofers</b></a></li>
+                                              <li><a href=""> <b>All Car Electronics</b></a></li>
+                                             
+                                              
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>LED Head Lights</b></a></li>
+                                              <li><a href="carmonitors.html"><b>Monitors</b></a></li>
+                                              <li><a href=""><b>Radar Detectors</b></a></li>
+                                              <li><a href=""><b>Radios</b></a></li>
+                                              <li><a href=""><b>Signal Lamp</b></a></li>
+                                              <li><a href=""><b>Speakers</b></a></li>
+                                             
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>DVD Players</b></a></li>
+                                              <li><a href=""><b>Equalizers</b></a></li>
+                                              <li><a href=""><b>GPS and Accessories</b></a></li>
+                                              <li><a href="">car GPS Trackers</a></li>
+                                              <li><a href="">Garmin</a></li>
+                                              <li><a href=""><b>Head up Display</b></a></li>
+                                              <li><a href=""><b>Interior Mirrors</b></a></li>
+        
+                                              
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Alarms and Security</b></a></li>
+                                              <li><a href=""><b>Amplifiers</b></a></li>
+                                              <li><a href=""><b>Automative Interior Stickers</b></a></li>
+                                              <li><a href=""><b>Bluetooth Kit</b></a></li>
+                                              <li><a href=""><b>Cigarette Lighters</b></a></li>
+                                              <li><a href=""><b>Clock</b></a></li>
+                                             
+                                          </div>
+                                     </div>
+                                  </ul>
+                              </li>
+                              
+        
+                              
+                                
+                          </div>
+                      </div>
+                     </li> 
+                  </div>
+        
+        
+        
+        
+        
+        <!-- Tools Start from here@@@@@@@IO)((((((())))))) -->
+        
+        
+        
+                  <div class="categories-display">  
+                      <div class="dropdown">
+                          <a href="tools.html">
+                            <button class="dropdown-button">
+                                Tools
+                            </button>
+                          </a>
+                          
+                          <div class="dropdown-content" style="line-height:8px;padding-bottom: 30px;">
+        
+                              <li class="abc-two" ><a href="">Brands</a>
+        
+                                  <ul class="dropdown-content-one" style="left:-340px;top: 0px;">
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;">
+                                      <div style="padding-left: 15px;">
+                                          <li><a href=""><b>Rigid</b></a></li>
+                                          <li><a href=""><b>Skill</b></a></li>
+                                          <li><a href=""><b>Stanley</b></a></li>
+                                          <br>
+                                          <li><a href=""><b>All Brands</b></a></li>  
+                                          
+                                      </div>
+        
+                                      <div style="padding-left: 30px;"> 
+                                      <li><a href=""><b>Black Decker</b></a></li>
+                                      <li><a href=""><b>Bosch</b></a></li>
+                                      <li><a href=""><b>Bositch</b></a></li>
+                                      <li><a href=""><b>DeWalt</b></a></li>
+                                      <li><a href=""><b>Husqvarna</b></a></li>
+                                      <li><a href=""><b>Irwin</b></a></li>
+                                      <li><a href=""><b>JET</b></a></li>
+                                      <li><a href=""><b>Makita</b></a></li>
+                                      </div>
+                                     </div>   
+                                  </ul>
+                              </li>
+        
+        
+        
+        
+                              <li class="abc-two-hand" ><a href="">Hand Tools</a>
+        
+                                  <ul class="dropdown-content-one"  >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div >
+                                              <li><a href=""> <b>Hammers</b></a></li>
+                                              <li><a href="">Ball Peen Hammers</a></li>
+                                              <li><a href="">Claw Hammers</a></li>
+                                              <li><a href="">Dead Blow Hammers</a></li>
+                                              <li><a href="">Drilling Hammers</a></li>
+                                              <li><a href="">Framing Hammers</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                            
+                                              <br>
+                                              <li><a href=""><b>All Hand Tools</b></a></li>
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>Fastening Tools</b></a></li>
+                                              <li><a href="">Clamps and vises</a></li>
+                                              <li><a href="">Glue Guns an Sticks</a></li>
+                                              <li><a href="">Gromments</a></li>
+                                              <li><a href="">Heavy Duty Staplers</a></li>
+                                              <li><a href="">Rivet Tools and Rivets</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                             
+                                          </div>
+                           
+                                          <div > 
+                                              <li><a href=""><b>Cutting Tools</b></a></li>
+                                              <li><a href="">Axes</a></li>
+                                              <li><a href="">Bolt Cutters</a></li>
+                                              <li><a href="">Glass Cutters</a></li>
+                                              <li><a href="">Hand Sawa</a></li>
+                                              <li><a href="">Shop All</a></li>
+                                              <li><a href=""><b>Hatchets</b></a></li>
+                                              <br>
+                                              <li><a href=""><b>Drills</b></a></li>
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Crowbars</b></a></li>
+                                              <li><a href="">Claw Bars</a></li>
+                                              <li><a href="">Demolition Bars</a></li>
+                                              <li><a href="">Moulding Pullers</a></li>
+                                              <li><a href="">Nail Pullers</a></li>
+                                              <li><a href="">Pry Bars</a></li>  
+                                              <li><a href="">Shop All</a></li>
+                                          </div>  
+                                          <div> 
+                                              <li><a href=""><b>Chisels and Files</b></a></li>
+                                              <li><a href="">Awls</a></li>
+                                              <li><a href="">Chisels</a></li>
+                                              <li><a href="">Flies</a></li>
+                                              <li><a href="">Nail Setters</a></li>
+                                              <li><a href="">Punches</a></li>
+        
+                                          </div>   
+                                     </div>
+                                  </ul>
+                              </li>
+                              
+        
+                              
+                              
+                              <li class="abc-two"><a href="powertools.html">Power Tools</a></li>
+                              
+                              
+        
+        
+                              <li class="abc-two-garden"><a href="">Gardening Tools</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;padding-bottom: 20px;" >
+                                      <div >
+                                          <li><a href=""><b>Shears and Pruning Tools</b></a></li>
+                                          <li><a href="">Grass Shears</a></li>
+                                          <li><a href="">Hedge Shears</a></li>
+                                          <li><a href="">Loppers</a></li>
+                                          <li><a href="">Pruning Saws</a></li>
+                                          <li><a href="">Pruning Shears</a></li>
+                                          <li><a href="">Shop All</a></li>
+                                          <br>
+                                          <li><a href=""><b>Snow Tools</b></a></li>
+                                          <li><a href="">Roof Rakes</a></li>
+                                          <li><a href="">Sand Spreaders</a></li>
+                                          <li><a href="">Ice Scrapers</a></li>
+                                          <li><a href="">Snow Shovels</a></li>
+                                          
+                                      </div>
+        
+                                      <div > 
+                                      <li><a href=""><b>Garden Hoes</b></a></li>
+                                      <br>
+                                      <li><a href=""><b>Garden Irrigation Tools</b></a></li>
+                                      <li><a href="">Hose Reels</a></li>
+                                      <li><a href="">Hoses</a></li>
+                                      <li><a href="">Micro Irrigation</a></li>
+                                      <li><a href="">Nozzles</a></li>
+                                      <li><a href="">Playpens</a></li>
+                                      <li><a href="">Power Washers</a></li>
+                                      <li><a href="">Shop All</a></li>
+                                      <br>
+                                      <li><a href=""><b>Garden Rakes</b></a></li>
+                                      <li><a href=""><b>Garden Towels</b></a></li>
+                                      <li><a href=""><b>Leaf Bags</b></a></li>
+                                      </div>
+                                      <div>
+                                          <li><a href=""><b>Areators</b></a></li>
+                                          <li><a href=""><b>Bulb Planters</b></a></li>
+                                          <li><a href=""><b>Cultivators</b></a></li>
+                                          <li><a href=""><b>Digging Tools</b></a></li>
+                                          <li><a href="">Augers</a></li>
+                                          <li><a href="">Bar Diggers</a></li>
+                                          <li><a href="">Post Hole Diggers</a></li>
+                                          <li><a href="">Shovels</a></li>
+                                          <li><a href=""><b>Garden Forks</b></a></li>
+                                          <li><a href=""><b>Garden Gloves</b></a></li>                                       
+                                      </div>
+                                     </div>   
+                                  </ul>
+                              </li>
+                              <li class="abc-two"><a href="">Tool Storage</a></li>
+                              <li class="abc-two"><a href="">Automative Tools</a></li>
+                              
+        
+                              <li class="abc-two-powertools"><a href="">Outdoor Power Tools</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu" style="padding-top: 15px;">
+                                      <div style="padding-left: 15px;">
+                                          <li><a href=""><b>Tree Care</b></a></li>
+                                          <li><a href="">Chainaws</a></li>
+                                          <li><a href="">Log Splitters</a></li>
+                                          <li><a href="">Pole Saws</a></li>
+                                          <li><a href="">Stump Grinders</a></li>
+                                          <li><a href="">Wood Chippers</a></li>
+                                          <br>
+                                          <li><a href=""><b>Trimmers</b></a></li>
+                                          <li><a href="">Edgers</a></li>
+                                          <li><a href="">Hedge Trimmers</a></li>
+                                          <li><a href="">String Trimmers</a></li>
+                                          
+                                          <br>
+                                          <li><a href=""><b>All Outdoor Power Equipment</b></a></li>  
+                                          
+                                      </div>
+        
+                                      <div style="padding-left: 35px;"> 
+                                      <li><a href=""><b>Lawn Care</b></a></li>
+                                      <li><a href="">Lawn Mover Covers</a></li>
+                                      <li><a href="">Lawn Mover</a></li>
+                                      <li><a href=""><b>Leaf Blowers</b></a></li>
+                                      <li><a href="">Backpack Blowers</a></li>
+                                      <li><a href="">Handheld Blowers</a></li>
+                                      <li><a href=""><b>Pressure Washers</b></a></li>
+                                      <li><a href=""><b>Snow Blowers</b></a></li>
+                                      <li><a href=""><b>Tillers and Cultivators</b></a></li>
+                                      
+                                      </div>
+                                     </div>   
+                                  </ul>
+                              </li>
+        
+                              <li class="abc-two"><a href="">Automative Tools</a></li>
+        
+                              <li class="abc-two-safety" ><a href="">Safety Equipment</a>
+        
+                                  <ul class="dropdown-content-one" >
+                                     
+                                     <div class="anime-hoodies-submenu" id="brands-submenu">
+                                          <div>
+                                              <li><a href=""> <b>Respirator Masks</b></a></li>
+                                              <li><a href="">Disposal Respirators</a></li>
+                                              <li><a href=""> Filters</a></li>
+                                              <li><a href=""> Gas Masks</a></li>
+                                              <li><a href=""> Half Mask Respirators</a></li>
+                                              <li><a href=""> Respirator Catridges</a></li>
+                                              <li><a href=""> Sop All</a></li>
+                                              <br>
+                                              <li><a href=""><b>Tiling Knee Pads</b></a></li>
+                                              <li><a href=""><b>All Safety Equipment</b></a></li>
+                                             
+                                              
+                                          </div>
+        
+                                          <div> 
+                                              <li><a href=""><b>LED Head Lights</b></a></li>
+                                              <li><a href="">Bump Caps</a></li>
+                                              <li><a href="">Fcae Shields</a></li>
+                                              <li><a href="">Hard Hat Accessories</a></li>
+                                              <li><a href=""> Hard Halts</a></li>
+                                              <li><a href=""><b>Hearing Protection</b></a></li>
+                                              <li><a href="">Ear Muffs</a></li>
+                                              <li><a href="">Ear Plugs</a></li>
+                                              <li><a href=""><b>Protective Eye wear</b></a></li>
+                                              <li><a href="">Safety Glasses and Sun glasses</a></li>
+                                              <li><a href="">Safety Googles</a></li>
+                                             
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Disposal Protective Cloth</b></a></li>
+                                              <li><a href="">Disposal Coveralls</a></li>
+                                              <li><a href="">Disposal Glove</a></li>
+                                              <li><a href="">Disposal Shoe Covers</a></li>
+                                              <li><a href=""><b>Fall Protection Equipment</b></a></li>
+                                              <li><a href="">Anchor points</a></li>
+                                              <li><a href="">Anchor Connectors</a></li>
+                                              <li><a href="">Guardrall Systems</a></li>
+                                              <li><a href="">Safety Systems</a></li>
+        
+                                              
+                                          </div>
+                                          <div> 
+                                              <li><a href=""><b>Alarms and Security</b></a></li>
+                                              <li><a href=""><b>Amplifiers</b></a></li>
+                                              <li><a href=""><b>Automative Interior Censors</b></a></li>
+                                              <li><a href=""><b>Bluetooth Kit</b></a></li>
+                                              <li><a href=""><b>Fire INdicators</b></a></li>
+                                              <li><a href=""><b>Clock-fire</b></a></li>
+                                             
+                                          </div>
+                                     </div>
+                                  </ul>
+                              </li>
+                              <li class="abc-two"><a href="">Shop All</a></li>
+        
+                              
+                              
+        
+                              
+                                
+                          </div>
+                      </div>
+                     </li> 
+                  </div>
+        
+        
+                  <div class="categories-display">
+                         
+                      <div class="dropdown" style="padding-bottom:0px; border-bottom: 2px solid white;">
+                          <a href="more.html" class="drop-down-more">
+                            More
+                          </a>
+                          
+                          <div class="dropdown-content" style="left: -130px;">
+                              <li><a href="">Health and Beauty</a></li>
+                              <li><a href="">Drinks and Smokes</a></li>
+                              <li><a href="">Home and Green</a></li>
+                              <li><a href="">Home Improvement</a></li>
+                              <li><a href="">Art and Craft Supplies</a></li>
+                              <li><a href="">Toys and Hobbies</a></li>
+                              <li><a href="">Sports and Outdoor Gear</a></li>
+                              <li><a href="">Automotive Accessories</a></li>
+                          </div>
+                      </div>
+                  </li> 
+              </div>
+        
+              </div>
+          </nav>
+      
+        </header>
+
+        <div class="combined">
+            <div class="combinedleft">
+                <aside class="aside-bar">
+                    <ul class="tending-aside">
+                        <li><a href="index.html"> <img src="https://cdn-icons-png.flaticon.com/128/2722/2722991.png" alt="" width="20px" height="20px"> All Products</a></li>
+                        <b>Trending</b>
+                        <li><a href="">Airpods</a></li>
+                        <li><a href=""> Anime Hoodies</a></li>
+                        <li><a href="">  BTS</a></li>
+                        <li><a href="">Bluetooth Speakers</a></li>
+                        <li><a href="">Dragonball Z Figures</a></li>
+                        <li><a href=""> Gucci</a></li>
+                        <li><a href="">Mommy and Me</a></li>
+                        <li><a href=""> Motorcycle Helmets</a></li>
+                        <li><a href="">  Naruto</a></li>
+                        <li><a href="">Plant Stands</a></li>
+                        <li><a href="">Pop it Phone Cases</a></li>
+                        <li><a href="">Rapper Hoodies</a></li>
+                        <li><a href=""> Rick and Morty Hoodies</a></li>
+                        <li><a href="">Dranganronpa</a></li>
+                        <li><a href="">Harajuku</a></li>
+                        <li><a href="">Nobita</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="combinedright">
+                 <div class="topic-name"><h4><b>Trending</b></h4></div>
+                <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item" data-mdb-interval="2000">
+                            <img src="https://canary.contestimg.wish.com/api/file/fetch?general_image_name=zb-iim-650269320234e6488850711b-1694656819-2023_08_Get_ready_for_Halloween_Web_Banner_Primary_Promo_Desktop_HP1_Bluesky_MFP_LN.png" height="170px" class="d-block w-100" alt="Camera"/>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://canary.contestimg.wish.com/api/file/fetch?general_image_name=zb-iim-6501dd8c2a71137699704afd-1694621068-2023_09_GL__Rejuvinate_your_Space_Web_Banner_Primary_Promo_Desktop_HP1_Template_MFP.png" height="170px" class="d-block w-100" alt="Exotic Fruits"/>
+                        <h6 class="inner-image-three">
+                            <b style="font-size: 22px;color: black;">Up to 20% off home decor</b>
+                            <p style="font-size: 12px;color: black;margin-bottom: 7px;" >Upgrade your space for less</p>
+                            <button class="shop-button"> Shop now</button>
+                            <p style="font-size: 10px;color: black;">*Discount may vary by country</p>
+                        </h6>
+                      </div>
+                      <div class="carousel-item active" data-mdb-interval="10000">
+                        <img src="https://main.cdn.wish.com/web/9508c83ca91a/img/first_purchase_incentive/desktop_banner_background.png" class="d-block w-100" height="170px" alt="Wild Landscape"/>
+                        <div class="inner-image-one">
+                            <h4 ><b> Get 15% off your first order..!</b></h4>
+                            <p style="text-align: center;font-size: 19px;margin-top: 13px;"> <b>Use code:</b> <span class="first-15">FIRST 15</span> </p>
+                            <p style="font-size: small;font-weight: 500;">Max discount ₹416</p>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            
+                  <div class="shop" id="shop" style="margin-left: 90px;">
+                </div>
+            
+                  <main class="all-products">
+                    <div class="product-category">
+                        <div class="product-list" style="margin-left: 100px;">
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/6121beeb559f97699001b7f1-normal.jpg?cache_buster=659e28aa59b5451d75755458bf112410" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 166</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" class="open-button"  >view</button></h6>
+                            </div>
+            
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-large.jpg?cache_buster=c34d4ed93ea7ded1d599cff304613bdd" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 2999</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i>   <button  class="product-item-view-button" onclick="openView()">view</button></h6>
+                            </div>
+            
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/60f7da47fc48f7cf63bfb507-normal.jpg?cache_buster=0388036931709e3c3ac78be576ac5101" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 39,999</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" >view</button></h6>
+                            </div>
+            
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/6132ed0f66d50d39f3ccd6c7-normal.jpg?cache_buster=31940bd6bc1668d2cdbcb509670b432c" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 59,999</b> <br> <i class="fa-solid fa-star fa-sm"></i></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" >view</button></h6>
+                            </div>
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/6135842a2a4a3769f1f5b0e5-normal.jpg?cache_buster=ffb29e3f6ec07516cea8610ff68774ac" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 650</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" >view</button></h6>
+                            </div>
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/613184c3028577afbe11987f-normal.jpg?cache_buster=3bf4ad57ef9a2a19a91aa01c082a1aee" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 999</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" >view</button></h6>
+                            </div>
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/6100fe5047609180a6ea16b9-normal.jpg?cache_buster=4530e66af1b90390369c75d72870ca52" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 1299</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" >view</button></h6>
+                            </div>
+                            <div class="product-item">
+                                <img src="https://canary.contestimg.wish.com/api/webimage/611770d5b0b2fb1b220e4237-normal.jpg?cache_buster=0ee50ec4e8f61b3c9469f515ea6445f7" alt="">
+                                <h6 > <b style="color: black;">&#x20B9; 899</b> <br> <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>    <button  class="product-item-view-button" >view</button></h6>
+                            </div>
+            
+                    
+            
+                            
+                            
+                        </div>
+            
+                    </div>
+            
+                </main>
+                
+            </div>
+            <div class="view-container" id="viewcontainer">
+                <button type="button" class="btn-cancel-two" onclick="closeView()">close</button>
+        
+                
+                <div class="view-popup">
+                    <div class="popup-header"> 
+                        <ul>
+                            <li>Overview</li>
+                            <li>Related</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-1-small.jpg" alt="" >
+                        </div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-2-small.jpg" alt="">
+                        </div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-3-small.jpg" alt="">
+                        </div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-4-small.jpg" alt="" >
+                        </div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-10-small.jpg" alt="" >
+                        </div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-12-small.jpg" alt="">
+                        </div>
+                        <div class="image-size">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-14-small.jpg" alt="">
+                        </div>
+        
+        
+                        
+                    </div>
+        
+                        <div style="position: absolute;top: 150px;left: 350px;">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/6158072a9115aea7bb362793-large.jpg?cache_buster=c34d4ed93ea7ded1d599cff304613bdd" alt="" height="400px" width="450px">
+                        </div>
+                     <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;">
+                    <div class="standard-shipping">
+                        <p>
+                           <b> Standard shipping </b>166.35 <br>
+                            26 Sep–7 Nov <br>
+                            <span style="color: rgb(146, 146, 146);font-weight: 500;">Items are sold and shipped by wutingwen</span>
+                        </p>
+                    </div>
+                    <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;">
+                    <p style="color: black; margin-left: 40px;"><b>About Delivery Dates</b> <a href="" style="text-decoration: none; font-weight: 600;margin-left: 350px;">show more</a></p>
+                    <!-- <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;">
+                    
+                    <p style="font-weight: 600; margin: 7px 40px;"><b>Customer Photos</b></p>
+                        
+                    <div class="customer-images">
+                        <div class="customer-img1">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-1-large.jpg" alt="" >
+                        </div>
+                        <div class="customer-img2">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-3-large.jpg" alt="">
+                        </div>
+                        <div class="customer-img3">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-4-large.jpg" alt="">
+                        </div>
+                        <div class="customer-img4">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-5-large.jpg" alt="" >
+                        </div>
+                        <div class="customer-img5">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-9-large.jpg" alt="" >
+                        </div>
+                        <div class="customer-img6">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-8-large.jpg" alt="">
+                        </div>
+                        <div class="customer-img7">
+                            <img src="https://canary.contestimg.wish.com/api/webimage/5e60adb9cd77c4648065eb5e-6-large.jpg" alt="">
+                        </div>
+                    </div> -->
+                    
+                    <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;margin-top: 25px;margin-bottom: 10px;">
+                    
+                    <p style="color: black;margin-left: 40px;" ><b>Customer Reviews</b> <a href="" style="text-decoration: none; font-weight: 600;margin-left: 370px;">show more</a></p>
+                     
+                    <div style="display: flex; gap: 20px; line-height: 21px;margin-left: 40px; color: black;" >
+                        <div class="ProfilePicture__ProfileWrapper-sc-19kphna-1 kEOfeb">E</div>
+                        <div class="sarah"><b>Jose</b> <br>
+                             <p style="font-size: 14px;">  Excellent quality and performance! <br>
+                            
+                                <span style="font-size: 11px;">about 1  month ago.</span></p>
+                            
+                        </div>
+                        <div style="color: blue;margin-left: 230px;"><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i></div>
+                    </div>
+        
+        
+        
+                    <div style="display: flex; gap: 20px; line-height: 18px;margin-left: 40px;color: black;" >
+                        <div class="ProfilePicture__ProfileWrapper-sc-19kphna-1 kEOfeb">S</div>
+                        <div class="sarah"><b>Sarah</b> <br>
+                             <p style="font-size: 14px;">  These are the best USB memory sticks ever😁 highest of <br>
+                                 recommendations for this product, it's a must have! works perfectly and  <br> 
+                                is excellent quality👍 love this shop💖 <br>
+                                <span style="font-size: 11px;">about 2 years ago.</span></p>
+                            
+                        </div>
+                        <div style="color: blue;"><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i></div>
+                    </div>
+                    <div style="display: flex; gap: 20px; line-height: 20px;margin-left: 40px;color: black;" >
+                        <div class="ProfilePicture__ProfileWrapper-sc-19kphna-1 kEOfeb">E</div>
+                        <div class="sarah"><b>Ed</b> <br>
+                             <p style="font-size: 14px;">  USB devices work very well and many files can easily be saved. <br>
+                             <span style="font-size: 11px;">about 2 years ago.</span>
+                            </p>
+                            
+                        </div>
+                        <div style="color: blue;margin-left: 50px;"><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i></div>
+                    </div>
+                    <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;margin-top: 25px;margin-bottom: 10px;">
+                    
+                    <p style="color: black;margin-left: 40px;" ><b>Description</b> <a href="" style="text-decoration: none; font-weight: 600;margin-left: 420px;" class="show-features" >show more</a></p>
+                    <div class="features">
+                        Feature: <br>
+                        1. USB connection,support Hot plug & Play.<br>
+                        2. No external power supply requird.<br>
+                        3. Support different types of os.<br>
+                        4. Solid State Storage, Shock proof and electromagnetic proof.<br>
+                        5. Write/delect protection switch<br>
+                        6. Durable data storage<br>
+                        7. Fast speed in write/read transfer<br>
+                        8. Hardware Requirement: PC with USB connection,Notebook,MAC<br>
+                        9. Life:>1 million times<br>
+                        10.capacity:1GB/8GB/16GB/32GB/64GB/128GB<br>
+                        Package included:<br>
+                        1XUSB flash drive<br>
+                        1XKey chain<br>
+                    </div>
+        
+                    <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;margin-top: 25px;margin-bottom: 10px;">
+                    
+                    <p style="color: black;margin-left: 40px;" ><b>References</b> <a href="" style="text-decoration: none; font-weight: 600;margin-left: 420px;" class="show-features" >show more</a></p>
+                    
+                    <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;margin-top: 25px;margin-bottom: 10px;">
+                   
+                    <p style="color: black;margin-left: 40px;" ><b>Sold by</b> <a href="" style="text-decoration: none; font-weight: 600;margin-left: 460px;" class="show-features" >Visit store</a></p>
+                    
+                    <div style="display: flex; gap: 20px; line-height: 21px;margin-left: 40px; color: black;" >
+                        <!-- <div class="ProfilePicture__ProfileWrapper-sc-19kphna-1 kEOfeb">E</div> -->
+                        <img src="https://sweeper-production-merchantimage.s3-us-west-1.amazonaws.com/light_default_dp.png" alt="wutingwen" class="StoreReviewContainer__StorePicture-sc-1tlitaz-7 etAkML">
+            
+                        <div class="sarah"><b>wutingwen</b> <br>
+                            <span style="color: rgb(56, 56, 243);">4.5<i class="fa-solid fa-star fa-sm"></i></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star-half-stroke fa-sm"></i>(2753)</span></p>  
+                        </div>
+                        <!-- <div style="color: rgb(41, 41, 237);margin-left: 300px;"><b><a href="">Visit Store</a></b></div> -->
+                    </div>
+        
+                    <hr style="width: 600px; height: 2px; color: gray;margin-left: 30px;margin-top: 25px;margin-bottom: 10px;">
+                    
+                    <div style="color: black; margin-left: 40px; margin-bottom: 20px;"><b>30 day Return and Refund</b></div>
+        
+                    <div style="display: flex; gap: 20px; line-height: 21px;margin-left: 40px;color: black;" >
+                        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="width: 40px;height:40px"><g fill="none" fill-rule="evenodd"><path d="M36.098 9.716c-.93 12.852-6.27 22.005-16.02 27.46-4.97-3.398-8.783-7.24-11.441-11.527l27.46-15.933z" fill="#49C3EE"></path><path d="M3.902 9.765c3.823-2.295 9.373-5.481 15.986-7.814 5.08 2.032 10.084 4.115 16.21 7.814-.934 12.74-6.3 21.815-16.098 27.222C9.459 29.877 4.093 20.802 3.902 9.765z" fill-opacity=".84" fill="#2fb7ec"></path><path d="M8.921 12.172c2.701-1.62 6.623-3.868 11.296-5.515 3.59 1.434 7.127 2.905 11.455 5.515-.66 8.993-4.451 15.398-11.375 19.215-7.45-5.02-11.241-11.424-11.376-19.215z" fill-opacity=".97" fill="#FFF" opacity=".162"></path><path d="M.488.488h39.024v39.024H.488z"></path><path d="M19.824 1.951L20 36.964l-.04.023C9.442 29.81 4.09 20.721 3.901 9.72c3.799-2.301 9.852-5.668 15.922-7.769z" fill="#FFF" opacity=".33"></path><path fill="#FFF" opacity=".823" d="M20 21.664l-3.804 2.066.85-4.15-3.2-2.872 4.328-.499L20 12.367l1.826 3.842 4.329.499-3.2 2.872.849 4.15z"></path></g></svg>
+                        <div class="sarah"><b>Shop With Confidence</b> <br> <br>
+                             <p style="font-size: 14px; color: black;" > 
+                                We want you to be completely satisfied with your purchase on <br> Wish. 
+                                Return all products within 30 days of delivery 
+                                if they <br> are not up to your satisfaction. 
+                                
+                            </p>
+                            
+                        </div>
+                        <div style="color: blue;margin-left: 45px;"><a href=""><b>Learn More</b></a></div>
+                    </div>
+                    
+        
+                        <div class="popup-right">
+                            <div class="high-quality-super">
+                                Long-sleeved top T-shirt ladies 2021 autumn and winter new casual long knitted sweater round neck leopard print bottoming shirt
+                            </div>
+                            <p style="color: rgb(51, 86, 228);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>1837 item ratings
+                            <br>
+                            <span >166</span>
+                            </p>
+                            <hr style="width:280px; color: rgb(169, 167, 167);margin-left: 10px;">
+                            <div class="popup-right-bar">
+                                <div class="popup-right-offer">
+                                    Get 15% off your first purchase with code: <br>  
+                                    <span><u>FIRST15</u></span>
+                                </div>
+                                <div class="popup-right-sold"><b>Sold out</b></div>
+                            </div>
+        
+                        </div>
+                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                </div>
+            </div>
+          
+        
+            <div class="container-one" id="container" >
+                <button type="button" class="btn-cancel" onclick="closeForm()"><svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" role="button" style="width: 16px; height: 16px; color: rgb(14, 22, 28); cursor: pointer;"><g stroke="#0E161C" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 1l8 8M9 1L1 9"></path></g></svg></button>
+                <div class="signin-logo">
+                    <!-- <img src="https://1000logos.net/wp-content/uploads/2023/04/Wish-logo.jpg" alt="" > -->
+                    <svg width="94" height="32" viewBox="0 0 94 32" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;"><path d="M68.417 23.745c-.389-4.387-4.109-5.48-7.74-6.693-3.282-1.097-6.366-1.368-6.696-3.719-.354-2.495 2.097-4.174 4.664-3.722 2.783.492 3.311 2.635 2.668 4.023 1.284 1.59 4.473 1.426 5.453.314.808-.909 1.08-2.412-.614-3.838-2.074-1.748-6.331-2.582-10.409-1.818-4.008.752-7.182 3.433-6.823 7.334.387 4.196 3.376 5.415 8.109 6.679 4.58 1.224 6.08 2.852 5.781 4.978-.267 1.902-1.883 3.46-5.337 3.06-3.455-.402-5.271-3.045-4.566-6.033-3.934-.904-5.633 2.973-2.355 5.526 3.154 2.463 9.348 2.674 12.839 1.342 3.129-1.185 5.385-3.367 5.026-7.433ZM41.685 6.845c2.138 0 3.87-1.533 3.87-3.423 0-1.889-1.732-3.422-3.87-3.422s-3.87 1.531-3.87 3.422c0 1.892 1.732 3.423 3.87 3.423ZM44.735 8.717a7.496 7.496 0 0 1-6.1 0v22.595h6.114V8.72l-.014-.002ZM84.762 8.042a9.828 9.828 0 0 0-5.932 1.924V.679h-6.272v30.629h6.249V17.119c0-3.604.553-5.31 2.37-6.674 1.65-1.237 3.979-1.018 5.247-.132 1.53 1.07 1.462 3.635 1.462 5.681v15.317H94v-15.41c0-5.5-3.736-7.859-9.238-7.859ZM28.085 31.312H21.97l-4.804-13.984-3.393 13.979H7.656L0 8.719h6.279l6.482 19.545c2.32-6.55 3.773-12.656 1.52-19.545h6.114l7.69 22.593ZM30.626 8.009a23.382 23.382 0 0 1-5.1 6.21 25.452 25.452 0 0 1 5.1 8.278 25.483 25.483 0 0 1 5.106-8.278 23.425 23.425 0 0 1-5.106-6.21Z" fill="#1E1E1C"></path></svg>
+                    <br>
+                    <div>Want 15% off your first purchase? Log in or sign up to unlock!</div>
+                </div>
+                <div class="both-forms">
+                    <div class="login-form">
+                        <div class="form-text">
+                            <h6>Log in</h6>
+                        </div>
+                        <form action="" id="login-form">
+                            <input type="text" id="email" placeholder="Phone number or email"  required>
+                            <input type="password" id="password" placeholder="password" required>
+        
+                            <a href="" class="forgot" onclick="forgot()" >Forgot Password ?</a>
+                            <p id="forgot-password"><a href="" ></a></p>
+                            <div >
+                                <button class="login-button">Login</button>
+                                <div id="error-message" style="margin-left: 25px;"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-form">
+                        <div class="form-text">
+                            <h6>Sign up</h6>
+                        </div>
+                        <form action="" id="signup-form">
+                           <div class="first-last-names">
+                            <input type="text" placeholder="First name" id="firstname" required>
+                            <input type="text" placeholder="Last name" id="lastname" required>
+                           </div>
+                            <div class="email-password">
+                                <input type="email" id="email" placeholder="Email address" required>
+                                <input type="password" id="password" placeholder="Password" required>
+                            </div>
+                            <div >
+                                <a href=""><button class="login-button" type="submit">Continue</button></a>
+                                 
+                            <p class="error-message" id="error-message" style="padding-left: 20px;"></p>
+                               
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="hr-tag">
+                    <div class="line"> </div>
+                    <div style="color: rgb(155, 155, 155);font-size: small;padding-top: 5px;"> &nbsp;&nbsp;Or Continue with</div>
+                    <div class="line">  </div>
+                </div>
+        
+                <div class="social-accounts">
+                    <a href="https://www.facebook.com/"><div class="facebook"><svg viewBox="0 0 768 764" style="width: 24px; height: 24px; position: absolute; bottom: 107px; left: 45px;"><path d="M384 0a384 384 0 00-60 763.3V495h-97.5V384H324v-84.6c0-96.2 57.3-149.4 145-149.4 42 0 86 7.5 86 7.5V252h-48.4c-47.7 0-62.6 29.6-62.6 60v72h106.5l-17 111H444v268.3A384 384 0 00384 0z" fill="#fff" fill-rule="evenodd"></path></svg>Facebook</div></a>
+                    <a href="https://www.google.com/account/about/"><div class="google"><svg viewBox="0 0 46 46" style="width: 48px; height: 45px; background-color: rgb(255, 255, 255); position: absolute;bottom: 96px; left: 250px;"><defs><filter x="-50%" y="-50%" filterUnits="objectBoundingBox" id="GoogleIcon-a"><feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation=".5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.168 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix><feOffset in="SourceAlpha" result="shadowOffsetOuter2"></feOffset><feGaussianBlur stdDeviation=".5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.084 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix><feMerge><feMergeNode in="shadowMatrixOuter1"></feMergeNode><feMergeNode in="shadowMatrixOuter2"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><rect id="b" rx="2"></rect></defs><g fill="none" fill-rule="evenodd"><g transform="translate(3 3)" filter="url(#GoogleIcon-a)"><use fill="#FFF"></use><use></use><use></use><use></use></g><path d="M31.64 23.205c0-.639-.057-1.252-.164-1.841H23v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"></path><path d="M23 32c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711h-3.007v2.332A8.997 8.997 0 0 0 23 32z" fill="#34A853"></path><path d="M17.964 24.71a5.41 5.41 0 0 1-.282-1.71c0-.593.102-1.17.282-1.71v-2.332h-3.007A8.996 8.996 0 0 0 14 23c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"></path><path d="M23 17.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C27.463 14.891 25.426 14 23 14a8.997 8.997 0 0 0-8.043 4.958l3.007 2.332c.708-2.127 2.692-3.71 5.036-3.71z" fill="#EA4335"></path><path d="M14 14h18v18H14V14z"></path></g></svg>Google</div></a>
+                    <a href="https://www.icloud.com/"><div class="apple"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170" style="width: 24px; height: 24px; position: absolute; bottom: 107px; left: 470px;"><path d="M150.4 130.3a88 88 0 01-8.7 15.6c-4.6 6.5-8.4 11-11.3 13.6a21.8 21.8 0 01-14.4 6.3c-3.7 0-8.1-1-13.3-3.2-5.2-2-10-3.1-14.3-3.1-4.6 0-9.5 1-14.8 3.1A39.7 39.7 0 0161 166c-5 .2-9.9-2-14.8-6.5a97.1 97.1 0 01-29.4-68c0-11 2.4-20.3 7.1-28.2a41.3 41.3 0 0134.7-20.5c4 0 9 1.2 15.4 3.6A49.6 49.6 0 0086.2 50c1.3 0 5.9-1.4 13.6-4.3a44.9 44.9 0 0118.4-3.2 39.2 39.2 0 0130.7 16.1 34.1 34.1 0 00-18.1 31c0 10.3 3.8 19 11.2 25.8 3.3 3.1 7 5.6 11.2 7.3l-2.8 7.5zM119 7.3c0 8-3 15.6-8.8 22.6C103 38.2 94.5 43 85.2 42.3l-.2-3c0-7.9 3.4-16.2 9.4-23 3-3.4 6.8-6.3 11.4-8.6 4.7-2.2 9-3.5 13.1-3.7.2 1 .2 2.2.2 3.2z" fill="#fff"></path></svg>Apple</div></a>
+                </div>
+                <div class="terms">
+                    <p>By signing up, signing in, clicking 'continue with' Facebook, Google, or Apple, 
+                        or otherwise moving past this screen, and thereby proceeding as a guest on the Wish platform, you agree to Wish Terms of Use and Privacy Policy. This site is protected by reCAPTCHA
+                         and the Google Privacy Policy and Terms of Service apply.</p>
+                </div>
+              
+            </div>
+
+        </div>
+
+   
+
+    
+   
+  
+    
+    
+   
+    
+   
+  
+    
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+      
+
+    
+
+   
+
+
+
+
+
+ <!-- Footer -->
+ <section class="section-icons" style="background-color:rgb(230, 230, 230);margin-top:30px;margin-bottom: 0px;text-align: center;padding: 5px 0px;padding-bottom: 10px;">
+    <!-- Facebook -->
+    <a class="btn btn-primary  m-1" style="background-color: #3b5998" href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+
+    <!-- Twitter -->
+    <a class="btn btn-primary  m-1" style="background-color: #55acee" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" role="button"><i class="fab fa-twitter"></i></a>
+
+    <!-- Google -->
+    <a class="btn btn-primary  m-1" style="background-color: #dd4b39" href="https://myaccount.google.com/" role="button"><i class="fab fa-google"></i></a>
+
+    <!-- Instagram -->
+    <a class="btn btn-primary  m-1" style="background-color: #ac2bac" href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1" role="button"><i class="fab fa-instagram"></i></a>
+
+    <!-- Linkedin -->
+    <a class="btn btn-primary  m-1" style="background-color: #0082ca" href="https://www.linkedin.com/uas/login. " role="button"><i class="fab fa-linkedin-in"></i></a>
+    <!-- Github -->
+    <a class="btn btn-primary  m-1" style="background-color: #333333" href="https://github.com/login" role="button"><i class="fab fa-github"></i></a>
+  </section>
+   
+<footer class="text-center" >
+    <!-- Grid container -->
+    <div class="container p-0" style="margin-bottom: 0px;">
+      <!-- Section: Form -->
+      <section class="" style="height: 35px;padding: 30px 20px;" >
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong style="color: #000000;">Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <div class="form-outline  mb-0" style="font-weight: 500;border-bottom: 1px solid rgb(0, 0, 0);">
+                <input type="email" id="form5Example2" class="form-control" style="color: #000000;" />
+                <label class="form-label" for="form5Example2" style="color:rgb(0, 0, 0)">Enter your Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-auto">
+  
+              <!-- Submit button -->
+              <button type="submit" onclick="subscribe()" class="btn btn-outline-light mb-4" style="color: rgb(241, 241, 241);background-color: #ac2bac;border: none;">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+        <!-- Section: Links  -->
+     <section style="margin-top: 30px;">
+      <div class="container text-center text-md-start mt-0" style="line-height: 15px;" >
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-0">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-3"  style="color:rgba(255, 0, 0, 0.886); font-size: 24px;">
+            <i class="fas fa-gem me-3 "></i>Wish
+          </h6>
+          <p style="line-height: 20px; font-size: 14px; font-weight: 460;">
+           
+            Discover affordable items for your home and life needs. Enjoy our money back guarantee,
+            frequent discounts, flat rate shipping , and more.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-0 col-lg-2 col-xl-2 mx-auto mb-0">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-3" style="color:rgba(255, 0, 0, 0.886)">
+            Products
+          </h6>
+          <p>
+            <a href="fashion.html" class="text-reset">Clothes</a>
+          </p>
+          <p>
+            <a href="shoes.html" class="text-reset">Foot Wear</a>
+          </p>
+          <p>
+            <a href="Gadgets.html" class="text-reset">Mobiles Accessoris</a>
+          </p>
+          <p>
+            <a href="trending.html" class="text-reset">Trending Items</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-0">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-3" style="color:rgba(255, 0, 0, 0.886)">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="cart.html" style="color: black;">Orders</a>
+          </p>
+          <p>
+            <a href="help.html" style="color: black;">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-0">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-3" style="color:rgba(255, 0, 0, 0.886)">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            wish@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+    </section>
+            <!-- Section: Links  -->
+    
+        </div>
+        
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color:rgb(51, 160, 255);font-weight: bold;font-size: medium;color:black;">
+        © All Rights Reserved 2023 :<a style="color: black;" href="">Wish</a>
+        </div>
+    <!-- Copyright -->
+   
+
+    
+  
+  </footer>
+  <!-- Footer -->
+      
+
+        
+
+    <script src="script.js"></script>
+    <script src="trending.js"></script>
+    <script src="main.js"></script>
+
+    </body>
+
+</html>

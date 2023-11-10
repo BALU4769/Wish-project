@@ -1,0 +1,98 @@
+let shopItemsData=[
+    {
+        id:"thirtythree",
+        name:"Toy Teether",
+        price:189,
+        desc:"Cuca Baby Feeder.",
+        desca:"&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/621367f697c933cc5b649e52-normal.jpg?cache_buster=01e3f7db6d6430a0bb3e866756cef6eb",
+      },{
+        id:"thirtyfour",
+        name:"Silicone Body Simulation",
+        price:178.99,
+        desc:"Baby Doll Lifelike Baby Doll Toy.",
+        desca:"&#9733;&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/634d096d3d635ec3136580d0-medium.jpg?cache_buster=12e6a1c2152048ddad15d4854c705d44",
+      },{
+        id:"thirtyfive",
+        name:"Baby Pacifier Storage Box ",
+        price:150,
+        desc:"Transparent Dust Boxes Portable.",
+        desca:"&#9733;&#9733;&#9733;&#9733;&#11240;",
+        img:"https://canary.contestimg.wish.com/api/webimage/5d849266378ef66168c10752-medium.jpg?cache_buster=4da22f8f15e51296df41f05f334ea8b2",
+      },{
+        id:"thirtysix",
+        name:"Kids Girls Rubber Bands",
+        price:160.99,
+        desc:"20pcs Elastic Hair Bands",
+        desca:"&#9733;&#9733;&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/5e63ad19f69c67721ad81556-medium.jpg?cache_buster=b88ceced74f86d68d25159e76c956476",
+      },
+    // Baby gear-All Toys
+      {
+        id:"thirtyseven",
+        name:"Cartoon Electric Dolphin",
+        price:1043.78,
+        desc:"Dolphin Bubble Machine.",
+        desca:"&#9733;&#9733;&#9733;&#11240;",
+        img:"https://canary.contestimg.wish.com/api/webimage/612069c13907f927d3812385-normal.jpg?cache_buster=b33c495d3150fe988f10c34d74793295",
+      },{
+        id:"thirtyeight",
+        name:"Baby fruit Dental gum",
+        price:169,
+        desc:"Silica gel grade baby fruit.",
+        desca:"&#9733;&#9733;&#9733;&#9733;&#11240;",
+        img:"https://canary.contestimg.wish.com/api/webimage/5a3a5f1bfb04de27a015e17f-medium.jpg?cache_buster=26313c65acf2abee40f72adb1a0ffbcc",
+      },
+      {
+        id:"thirtynine",
+        name:"Ice Cube Game Baby Toys",
+        price:199,
+        desc:"100Pcs/Set 1 Mini Plastic Baby.",
+        desca:"&#9733;&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/5e196afaad72ff01418a4371-medium.jpg?cache_buster=8f1429e9b9478c69fced4ffa84cb4d96",
+      },
+      {
+        id:"forty",
+        name:"Winter Knitted Gloves ",
+        price:149,
+        desc:"Student Riding Cold Gloves.",
+        desca:"&#9733;&#9733;&#9733;&#11240;",
+        img:"https://canary.contestimg.wish.com/api/webimage/612af78772a22ac0cbf9722e-medium.jpg?cache_buster=9e71765f25d9b89c66ded6abedc39697",
+      },
+    // Baby gear-hygeine products
+      {
+        id:"fortyone",
+        name:"Baby Toothbrush Children",
+        price:899,
+        desc:"Kids Teeth Oral Care Cleaning.",
+        desca:"&#9733;&#9733;&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/615fe75d285cc19c8ecb2ad3-normal.jpg?cache_buster=c05bece2126916544c46d4452b39f05f",
+      },
+      {
+        id:"fortytwo",
+        name:"Baby Care",
+        price:120,
+        desc:"Baby's Grooming Set",
+        desca:"&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/6130b5e56302389663cf571d-large.jpg?cache_buster=c00fd39f7612547a64b02a0281cbb3a5",
+      },
+      {
+        id:"fortythree",
+        name:"Baby Mouth Cleaner",
+        price:125,
+        desc:"Oral Health Care Cleaning Tongue",
+        desca:"&#9733;&#9733;&#9733;&#11240;",
+        img:"https://canary.contestimg.wish.com/api/webimage/610218e69631c3a166fa5849-normal.jpg?cache_buster=a30ee900a07f850e10dc4e8ea73f3c78",
+      },
+      {
+        id:"fortyfour",
+        name:"Baby Ear muffs",
+        price:150,
+        desc:"Sound protection earmuffs",
+        desca:"&#9733;&#9733;&#9733;&#9733;&#9733;",
+        img:"https://canary.contestimg.wish.com/api/webimage/5da9a9d5e4fc5d037569fc43-normal.jpg?cache_buster=85f851d7f1e0313b3621022612336f14",
+      },
+    
+      
+];

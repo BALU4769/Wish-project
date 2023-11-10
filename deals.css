@@ -1,0 +1,91 @@
+.deals-container
+{
+    position: relative;
+    display: flex;
+    gap: 150px;
+    justify-content:center;
+    margin-top: 2em;
+    color: black;
+}
+.deals-container-one ,.deals-container-two ,.deals-container-three
+{
+    
+    padding: 8px;
+    width: 280px;
+    height: 290px;
+    border-radius: 15px;
+    /* border: 1px solid rgb(228, 224, 224); */
+    /* background-color: rgb(221, 166, 255); */
+}
+.deals-container-one-img img
+{
+    border-radius: 7px;
+}
+
+.deals-container-one-img-text
+{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+}
+.price p
+{
+    font-size:large;   
+}
+.price span
+{
+    font-size: x-large;
+}
+.price img
+{
+    position: absolute;
+    bottom: 50px;
+    left: 330px;
+    border-radius: 30px;
+}
+.get-buttton
+{
+    text-align: center;
+}
+.get-buttton button
+{
+    padding: 2px 7px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.get-buttton button:hover{
+    background-color:green;
+    color:white;
+}
+.image-two
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 4px;
+    left: 430px;
+    border-radius: 30px;
+    
+}
+.offer-tag
+{
+    color: azure;
+    position: absolute;
+    font-size: x-large;
+    height: 50px;
+    padding-top: 7px;
+    top: 200px;
+    left: -100px;
+    width: 420px;
+    font-family: fantasy;
+    rotate: -45deg;
+    background-color: rgb(203, 33, 33);
+}
+.offer-tag p
+{
+    text-align: center;
+
+}

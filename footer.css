@@ -1,0 +1,38 @@
+
+
+.container
+{
+    color: rgb(43, 38, 38);
+}
+
+footer{
+    height: auto;
+   /* position: relative; */
+   
+   background-color:  rgb(118, 191, 255)
+}
+.product-category
+{
+    margin-left: 10px;
+}
+#carouselExampleInterval
+{
+    margin-left:130px;
+}
+.section-icons  a
+{
+  padding-left:15px ;
+  padding-right: 15px; 
+  border-radius: 30px; 
+}
+.section-icons
+{
+    position: fixed;
+    bottom: 130px;
+    right: -130px;
+    transform: rotate(90deg);
+}
+.deals-image
+{
+    padding-left: 50px;
+}
